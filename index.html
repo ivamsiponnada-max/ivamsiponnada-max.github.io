@@ -50,7 +50,7 @@
 <body id="top" class="bg-slate-50 dark:bg-slate-950 text-slate-700 dark:text-slate-300 font-sans antialiased transition-colors duration-300">
 
 <!-- ================= HEADER ================= -->
-<header class="fixed top-0 inset-x-0 z-50 border-b border-slate-200/70 dark:border-slate-800/70 bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur-md">
+<header class="fixed top-0 inset-x-0 z-50 border-b border-white/40 dark:border-white/10 bg-white/60 dark:bg-slate-950/60 backdrop-blur-xl shadow-sm shadow-slate-900/5">
   <div class="max-w-6xl mx-auto px-5 sm:px-8">
     <div class="flex items-center justify-between h-16">
       <a href="#top" class="flex items-center gap-2 font-bold text-slate-900 dark:text-white tracking-tight">
@@ -104,8 +104,9 @@
 
 <!-- ================= HERO ================= -->
 <section class="relative overflow-hidden pt-36 pb-24 sm:pt-44 sm:pb-32">
+  <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=60" alt="" aria-hidden="true" class="absolute -top-32 -right-40 w-[42rem] h-[42rem] max-w-none object-cover rounded-full blur-3xl opacity-20 dark:opacity-30 -z-10 pointer-events-none select-none" />
   <div class="absolute inset-0 bg-grid [mask-image:radial-gradient(ellipse_60%_60%_at_50%_0%,black,transparent)]"></div>
-  <div class="max-w-6xl mx-auto px-5 sm:px-8 relative grid lg:grid-cols-2 gap-16 items-center">
+  <div class="max-w-6xl mx-auto px-5 sm:px-8 relative z-10 grid lg:grid-cols-2 gap-16 items-center">
 
     <div class="reveal">
       <div class="flex items-center gap-4">
@@ -132,7 +133,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16"/></svg>
           Download Resume
         </a>
-        <a href="https://github.com/ivamsiponnada-max" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg border border-slate-300 dark:border-slate-700 px-5 py-3 text-sm font-semibold text-slate-800 dark:text-slate-200 hover:border-teal-500 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
+        <a href="https://github.com/ivamsiponnada-max" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg border border-white/60 dark:border-slate-700/60 bg-white/40 dark:bg-slate-900/30 backdrop-blur-md px-5 py-3 text-sm font-semibold text-slate-800 dark:text-slate-200 hover:border-teal-500 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.17c-3.2.7-3.88-1.54-3.88-1.54-.52-1.34-1.28-1.69-1.28-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
           View GitHub
         </a>
@@ -158,8 +159,8 @@
     </div>
 
     <div class="reveal" style="transition-delay:.1s">
-      <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-xl shadow-slate-900/5 overflow-hidden">
-        <div class="flex items-center gap-1.5 px-4 py-3 border-b border-slate-200 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-800/40">
+      <div class="rounded-2xl border border-white/50 dark:border-white/10 bg-white/55 dark:bg-slate-900/45 backdrop-blur-xl shadow-xl shadow-slate-900/10 overflow-hidden">
+        <div class="flex items-center gap-1.5 px-4 py-3 border-b border-white/40 dark:border-white/10 bg-white/40 dark:bg-slate-800/30 backdrop-blur-md">
           <span class="w-2.5 h-2.5 rounded-full bg-red-400"></span>
           <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
           <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
@@ -178,8 +179,9 @@
 </section>
 
 <!-- ================= ABOUT ================= -->
-<section id="about" class="py-24 border-t border-slate-200 dark:border-slate-800">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8">
+<section id="about" class="relative overflow-hidden py-24 border-t border-slate-200 dark:border-slate-800">
+  <img src="https://images.unsplash.com/photo-1626908013351-800ddd734b8a?auto=format&fit=crop&w=1400&q=60" alt="" aria-hidden="true" loading="lazy" class="absolute top-10 -right-44 w-[36rem] h-[36rem] max-w-none object-cover rounded-full blur-3xl opacity-20 dark:opacity-30 -z-10 pointer-events-none select-none" />
+  <div class="max-w-6xl mx-auto px-5 sm:px-8 relative z-10">
     <div class="reveal max-w-2xl">
       <p class="text-sm font-semibold text-teal-600 dark:text-teal-400 uppercase tracking-wide">About Me</p>
       <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">Where innovation starts.</h2>
@@ -192,7 +194,7 @@
     </div>
 
     <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="reveal p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors">
         <div class="w-10 h-10 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400 flex items-center justify-center mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
         </div>
@@ -200,7 +202,7 @@
         <p class="mt-2 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Splunk ES administration and SPL correlation searches that improved detection coverage by 27% while cutting false positives.</p>
       </div>
 
-      <div class="reveal p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors" style="transition-delay:.05s">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors" style="transition-delay:.05s">
         <div class="w-10 h-10 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400 flex items-center justify-center mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
         </div>
@@ -208,7 +210,7 @@
         <p class="mt-2 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Hunting anomalous behavior across EDR, CASB, and Darktrace telemetry that traditional perimeter controls miss.</p>
       </div>
 
-      <div class="reveal p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors" style="transition-delay:.1s">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors" style="transition-delay:.1s">
         <div class="w-10 h-10 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400 flex items-center justify-center mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>
         </div>
@@ -216,7 +218,7 @@
         <p class="mt-2 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Authored IR playbooks and triage procedures that cut incident response time by 35% in live enterprise environments.</p>
       </div>
 
-      <div class="reveal p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors">
         <div class="w-10 h-10 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400 flex items-center justify-center mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
         </div>
@@ -224,7 +226,7 @@
         <p class="mt-2 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Triaging AWS/Azure alerts and governing IAM, SSO, MFA and access reviews across hybrid enterprise infrastructure.</p>
       </div>
 
-      <div class="reveal p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors" style="transition-delay:.05s">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors" style="transition-delay:.05s">
         <div class="w-10 h-10 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400 flex items-center justify-center mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
         </div>
@@ -232,7 +234,7 @@
         <p class="mt-2 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Ships open-source SIEM, IDS, and ITDR labs from scratch — the same pipelines run in production, built to learn every layer.</p>
       </div>
 
-      <div class="reveal p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors" style="transition-delay:.1s">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors" style="transition-delay:.1s">
         <div class="w-10 h-10 rounded-lg bg-teal-500/10 text-teal-600 dark:text-teal-400 flex items-center justify-center mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v10M9 3v18m0 0H5a2 2 0 0 1-2-2v-4"/></svg>
         </div>
@@ -253,62 +255,62 @@
 
     <div class="mt-12 grid md:grid-cols-2 gap-8">
 
-      <div class="reveal">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/40 dark:bg-slate-900/30 backdrop-blur-xl">
         <h3 class="text-sm font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
           <span class="w-1.5 h-4 rounded-full bg-teal-500"></span>Languages &amp; Scripting
         </h3>
         <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Python</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Bash</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">PowerShell</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Splunk SPL</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">SQL</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Python</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Bash</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">PowerShell</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Splunk SPL</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">SQL</span>
         </div>
       </div>
 
-      <div class="reveal" style="transition-delay:.05s">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/40 dark:bg-slate-900/30 backdrop-blur-xl" style="transition-delay:.05s">
         <h3 class="text-sm font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
           <span class="w-1.5 h-4 rounded-full bg-teal-500"></span>Security Platforms
         </h3>
         <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Splunk Enterprise Security</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">CrowdStrike Falcon</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Darktrace</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Microsoft Sentinel</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">IBM QRadar</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Wazuh</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">OpenSearch</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Suricata</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Splunk Enterprise Security</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">CrowdStrike Falcon</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Darktrace</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Microsoft Sentinel</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">IBM QRadar</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Wazuh</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">OpenSearch</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Suricata</span>
         </div>
       </div>
 
-      <div class="reveal">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/40 dark:bg-slate-900/30 backdrop-blur-xl">
         <h3 class="text-sm font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
           <span class="w-1.5 h-4 rounded-full bg-teal-500"></span>Cloud &amp; Identity
         </h3>
         <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">AWS</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Azure</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Active Directory</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Entra ID</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">IAM / SSO / MFA</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">RBAC</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">CASB / Netskope</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">AWS</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Azure</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Active Directory</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Entra ID</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">IAM / SSO / MFA</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">RBAC</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">CASB / Netskope</span>
         </div>
       </div>
 
-      <div class="reveal" style="transition-delay:.05s">
+      <div class="reveal p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/40 dark:bg-slate-900/30 backdrop-blur-xl" style="transition-delay:.05s">
         <h3 class="text-sm font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
           <span class="w-1.5 h-4 rounded-full bg-teal-500"></span>Frameworks &amp; Tools
         </h3>
         <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">MITRE ATT&amp;CK</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Sigma Rules</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Terraform</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Ansible</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Docker</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Wireshark</span>
-          <span class="px-3 py-1.5 text-sm rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">ServiceNow</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">MITRE ATT&amp;CK</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Sigma Rules</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Terraform</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Ansible</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Docker</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">Wireshark</span>
+          <span class="px-3 py-1.5 text-sm rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-md border border-white/60 dark:border-white/10 text-slate-700 dark:text-slate-300">ServiceNow</span>
         </div>
       </div>
     </div>
@@ -316,8 +318,9 @@
 </section>
 
 <!-- ================= EXPERIENCE ================= -->
-<section id="experience" class="py-24 border-t border-slate-200 dark:border-slate-800">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8">
+<section id="experience" class="relative overflow-hidden py-24 border-t border-slate-200 dark:border-slate-800">
+  <img src="https://images.unsplash.com/photo-1614064548237-096f735f344f?auto=format&fit=crop&w=1400&q=60" alt="" aria-hidden="true" loading="lazy" class="absolute bottom-0 -right-40 w-[38rem] h-[38rem] max-w-none object-cover rounded-full blur-3xl opacity-20 dark:opacity-30 -z-10 pointer-events-none select-none" />
+  <div class="max-w-6xl mx-auto px-5 sm:px-8 relative z-10">
     <div class="reveal max-w-2xl">
       <p class="text-sm font-semibold text-teal-600 dark:text-teal-400 uppercase tracking-wide">Experience</p>
       <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">Career timeline.</h2>
@@ -328,58 +331,66 @@
 
         <li class="reveal ml-8 relative">
           <span class="absolute -left-[2.55rem] top-0.5 w-5 h-5 rounded-full bg-teal-500 ring-4 ring-slate-100/50 dark:ring-slate-900/30"></span>
-          <div class="flex flex-wrap items-baseline justify-between gap-2">
-            <h3 class="font-bold text-slate-900 dark:text-white">Software Engineer · Qualcomm</h3>
-            <span class="text-xs font-medium text-teal-600 dark:text-teal-400 bg-teal-500/10 px-2.5 py-1 rounded-full">Jul 2026 – Present</span>
+          <div class="p-5 rounded-2xl border border-white/60 dark:border-white/10 bg-white/45 dark:bg-slate-900/35 backdrop-blur-xl">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white">Software Engineer · Qualcomm</h3>
+              <span class="text-xs font-medium text-teal-600 dark:text-teal-400 bg-teal-500/10 px-2.5 py-1 rounded-full">Jul 2026 – Present</span>
+            </div>
+            <ul class="mt-3 space-y-1.5 text-sm text-slate-600 dark:text-slate-400 list-disc list-outside pl-4">
+              <li>Reduced critical incident response time by 35% using Splunk Enterprise Security workflows.</li>
+              <li>Developed advanced SPL correlation searches, increasing threat detection coverage by 27%.</li>
+              <li>Optimized custom detection rules and SIEM dashboards, cutting daily false positives by ~40%.</li>
+            </ul>
           </div>
-          <ul class="mt-3 space-y-1.5 text-sm text-slate-600 dark:text-slate-400 list-disc list-outside pl-4">
-            <li>Reduced critical incident response time by 35% using Splunk Enterprise Security workflows.</li>
-            <li>Developed advanced SPL correlation searches, increasing threat detection coverage by 27%.</li>
-            <li>Optimized custom detection rules and SIEM dashboards, cutting daily false positives by ~40%.</li>
-          </ul>
         </li>
 
         <li class="reveal ml-8 relative">
           <span class="absolute -left-[2.55rem] top-0.5 w-5 h-5 rounded-full bg-white dark:bg-slate-900 border-2 border-teal-500"></span>
-          <div class="flex flex-wrap items-baseline justify-between gap-2">
-            <h3 class="font-bold text-slate-900 dark:text-white">Cybersecurity Engineer · Capital One</h3>
-            <span class="text-xs font-medium text-slate-600 dark:text-slate-400 bg-slate-200/70 dark:bg-slate-800 px-2.5 py-1 rounded-full">Aug 2025 – Jul 2026</span>
+          <div class="p-5 rounded-2xl border border-white/60 dark:border-white/10 bg-white/45 dark:bg-slate-900/35 backdrop-blur-xl">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white">Cybersecurity Engineer · Capital One</h3>
+              <span class="text-xs font-medium text-slate-600 dark:text-slate-400 bg-slate-200/70 dark:bg-slate-800 px-2.5 py-1 rounded-full">Aug 2025 – Jul 2026</span>
+            </div>
+            <ul class="mt-3 space-y-1.5 text-sm text-slate-600 dark:text-slate-400 list-disc list-outside pl-4">
+              <li>Achieved a 95% success rate identifying root causes using CrowdStrike EDR.</li>
+              <li>Ran correlation searches that identified lateral movement, blocking 50+ intrusions during peak hours.</li>
+              <li>Reduced critical monitoring blind spots by ~30% through log-source completeness audits.</li>
+            </ul>
           </div>
-          <ul class="mt-3 space-y-1.5 text-sm text-slate-600 dark:text-slate-400 list-disc list-outside pl-4">
-            <li>Achieved a 95% success rate identifying root causes using CrowdStrike EDR.</li>
-            <li>Ran correlation searches that identified lateral movement, blocking 50+ intrusions during peak hours.</li>
-            <li>Reduced critical monitoring blind spots by ~30% through log-source completeness audits.</li>
-          </ul>
         </li>
 
         <li class="reveal ml-8 relative">
           <span class="absolute -left-[2.55rem] top-0.5 w-5 h-5 rounded-full bg-white dark:bg-slate-900 border-2 border-teal-500"></span>
-          <div class="flex flex-wrap items-baseline justify-between gap-2">
-            <h3 class="font-bold text-slate-900 dark:text-white">IAM Analyst · Tata Consultancy Services</h3>
-            <span class="text-xs font-medium text-slate-600 dark:text-slate-400 bg-slate-200/70 dark:bg-slate-800 px-2.5 py-1 rounded-full">Jan 2020 – Dec 2023</span>
+          <div class="p-5 rounded-2xl border border-white/60 dark:border-white/10 bg-white/45 dark:bg-slate-900/35 backdrop-blur-xl">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white">IAM Analyst · Tata Consultancy Services</h3>
+              <span class="text-xs font-medium text-slate-600 dark:text-slate-400 bg-slate-200/70 dark:bg-slate-800 px-2.5 py-1 rounded-full">Jan 2020 – Dec 2023</span>
+            </div>
+            <ul class="mt-3 space-y-1.5 text-sm text-slate-600 dark:text-slate-400 list-disc list-outside pl-4">
+              <li>Executed 5,000+ access provisioning requests while maintaining compliance standards.</li>
+              <li>Automated IAM lifecycle tasks and reporting, cutting manual workload by 45% per quarter.</li>
+              <li>Maintained a 99% pass rate across periodic access reviews and compliance audits.</li>
+            </ul>
           </div>
-          <ul class="mt-3 space-y-1.5 text-sm text-slate-600 dark:text-slate-400 list-disc list-outside pl-4">
-            <li>Executed 5,000+ access provisioning requests while maintaining compliance standards.</li>
-            <li>Automated IAM lifecycle tasks and reporting, cutting manual workload by 45% per quarter.</li>
-            <li>Maintained a 99% pass rate across periodic access reviews and compliance audits.</li>
-          </ul>
         </li>
 
         <li class="reveal ml-8 relative">
           <span class="absolute -left-[2.55rem] top-0.5 w-5 h-5 rounded-full bg-white dark:bg-slate-900 border-2 border-slate-300 dark:border-slate-700"></span>
-          <div class="flex flex-wrap items-baseline justify-between gap-2">
-            <h3 class="font-bold text-slate-900 dark:text-white">M.S. Computer Science · University of Central Missouri</h3>
-            <span class="text-xs font-medium text-slate-600 dark:text-slate-400 bg-slate-200/70 dark:bg-slate-800 px-2.5 py-1 rounded-full">Jan 2024 – May 2025</span>
+          <div class="p-5 rounded-2xl border border-white/60 dark:border-white/10 bg-white/45 dark:bg-slate-900/35 backdrop-blur-xl">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+              <h3 class="font-bold text-slate-900 dark:text-white">M.S. Computer Science · University of Central Missouri</h3>
+              <span class="text-xs font-medium text-slate-600 dark:text-slate-400 bg-slate-200/70 dark:bg-slate-800 px-2.5 py-1 rounded-full">Jan 2024 – May 2025</span>
+            </div>
           </div>
         </li>
       </ol>
 
       <div class="reveal mt-12 flex flex-wrap gap-3">
-        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-sm font-medium text-slate-700 dark:text-slate-300">
+        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl border border-white/60 dark:border-white/10 text-sm font-medium text-slate-700 dark:text-slate-300">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-teal-500"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
           CompTIA Security+
         </span>
-        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-sm font-medium text-slate-700 dark:text-slate-300">
+        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl border border-white/60 dark:border-white/10 text-sm font-medium text-slate-700 dark:text-slate-300">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-teal-500"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
           Microsoft Certified: Identity and Access Administrator Associate
         </span>
@@ -399,7 +410,7 @@
 
     <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <article class="reveal group flex flex-col p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:shadow-lg hover:shadow-slate-900/5 hover:-translate-y-1 transition-all duration-300">
+      <article class="reveal group flex flex-col p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:shadow-lg hover:shadow-slate-900/10 hover:-translate-y-1 transition-all duration-300">
         <h3 class="font-bold text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">Enterprise Detection Engineering Lab</h3>
         <p class="mt-2.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed flex-1">A fully provisioned lab — Windows Domain Controller, workstation, and an Elastic Security SIEM node — instrumented with Sysmon auditing and production-style Sigma detections, validated against Atomic Red Team.</p>
         <div class="mt-4 flex flex-wrap gap-1.5">
@@ -414,7 +425,7 @@
         </a>
       </article>
 
-      <article class="reveal group flex flex-col p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:shadow-lg hover:shadow-slate-900/5 hover:-translate-y-1 transition-all duration-300" style="transition-delay:.05s">
+      <article class="reveal group flex flex-col p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:shadow-lg hover:shadow-slate-900/10 hover:-translate-y-1 transition-all duration-300" style="transition-delay:.05s">
         <h3 class="font-bold text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">ITDR Lab — Identity Threat Detection</h3>
         <p class="mt-2.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed flex-1">A Wazuh SIEM stack with 11 custom correlation rules and 6 portable Sigma rules, tested end-to-end against a scripted attack chain: password spraying, unauthorized account creation, and privilege escalation.</p>
         <div class="mt-4 flex flex-wrap gap-1.5">
@@ -429,7 +440,7 @@
         </a>
       </article>
 
-      <article class="reveal group flex flex-col p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:shadow-lg hover:shadow-slate-900/5 hover:-translate-y-1 transition-all duration-300" style="transition-delay:.1s">
+      <article class="reveal group flex flex-col p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:shadow-lg hover:shadow-slate-900/10 hover:-translate-y-1 transition-all duration-300" style="transition-delay:.1s">
         <h3 class="font-bold text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">SOC Homelab</h3>
         <p class="mt-2.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed flex-1">A containerized Security Operations Center: OpenSearch as the SIEM, Suricata watching the wire, and a Python attack simulator continuously firing SSH brute-force, SQLi, and port-scan traffic to hunt through.</p>
         <div class="mt-4 flex flex-wrap gap-1.5">
@@ -444,7 +455,7 @@
         </a>
       </article>
 
-      <article class="reveal group flex flex-col p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:shadow-lg hover:shadow-slate-900/5 hover:-translate-y-1 transition-all duration-300">
+      <article class="reveal group flex flex-col p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:shadow-lg hover:shadow-slate-900/10 hover:-translate-y-1 transition-all duration-300">
         <h3 class="font-bold text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">AWS IAM Security Audit Tool</h3>
         <p class="mt-2.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed flex-1">A read-only Boto3 CLI that audits an AWS account's IAM posture — root MFA, stale keys, over-privileged policies, weak password policy — and outputs a JSON report plus a styled HTML dashboard.</p>
         <div class="mt-4 flex flex-wrap gap-1.5">
@@ -459,7 +470,7 @@
         </a>
       </article>
 
-      <article class="reveal group flex flex-col p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:shadow-lg hover:shadow-slate-900/5 hover:-translate-y-1 transition-all duration-300" style="transition-delay:.05s">
+      <article class="reveal group flex flex-col p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:shadow-lg hover:shadow-slate-900/10 hover:-translate-y-1 transition-all duration-300" style="transition-delay:.05s">
         <h3 class="font-bold text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">DNS Threat Investigator</h3>
         <p class="mt-2.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed flex-1">SOC-analyst-style domain triage: DNS recon, reverse-DNS/GeoIP, Shannon-entropy DGA scoring, typosquat detection against a brand watchlist, and threat-intel blocklist checks.</p>
         <div class="mt-4 flex flex-wrap gap-1.5">
@@ -474,7 +485,7 @@
         </a>
       </article>
 
-      <article class="reveal group flex flex-col p-6 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:shadow-lg hover:shadow-slate-900/5 hover:-translate-y-1 transition-all duration-300" style="transition-delay:.1s">
+      <article class="reveal group flex flex-col p-6 rounded-2xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:shadow-lg hover:shadow-slate-900/10 hover:-translate-y-1 transition-all duration-300" style="transition-delay:.1s">
         <h3 class="font-bold text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">Network Traffic Analyzer</h3>
         <p class="mt-2.5 text-sm text-slate-600 dark:text-slate-400 leading-relaxed flex-1">Decodes Ethernet/IP/TCP/UDP/DNS/TLS traffic from a pcap or live interface and flags port scans, SYN floods, traffic spikes, and blocklist hits — the same pipeline shape as Suricata or Zeek.</p>
         <div class="mt-4 flex flex-wrap gap-1.5">
@@ -494,7 +505,7 @@
       <h3 class="text-sm font-bold text-slate-900 dark:text-white mb-5">More Projects</h3>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
-        <a href="https://github.com/ivamsiponnada-max/Sysmon-threat-hunting-tool" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
+        <a href="https://github.com/ivamsiponnada-max/Sysmon-threat-hunting-tool" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
           <div>
             <p class="font-semibold text-sm text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400">Sysmon Threat Hunter</p>
             <p class="text-xs text-slate-500 dark:text-slate-500 mt-1">MITRE ATT&amp;CK-mapped Sysmon log analysis</p>
@@ -502,7 +513,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 shrink-0 text-slate-400 group-hover:text-teal-500"><path d="M7 17 17 7M7 7h10v10"/></svg>
         </a>
 
-        <a href="https://github.com/ivamsiponnada-max/vulnerability-management-lab" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
+        <a href="https://github.com/ivamsiponnada-max/vulnerability-management-lab" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
           <div>
             <p class="font-semibold text-sm text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400">Vulnerability Mgmt Dashboard</p>
             <p class="text-xs text-slate-500 dark:text-slate-500 mt-1">FastAPI + SQLite, SLA-based triage</p>
@@ -510,7 +521,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 shrink-0 text-slate-400 group-hover:text-teal-500"><path d="M7 17 17 7M7 7h10v10"/></svg>
         </a>
 
-        <a href="https://github.com/ivamsiponnada-max/Phishing-Email-Analyzer" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
+        <a href="https://github.com/ivamsiponnada-max/Phishing-Email-Analyzer" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
           <div>
             <p class="font-semibold text-sm text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400">Phishing Email Analyzer</p>
             <p class="text-xs text-slate-500 dark:text-slate-500 mt-1">Heuristic risk scoring, zero dependencies</p>
@@ -518,7 +529,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 shrink-0 text-slate-400 group-hover:text-teal-500"><path d="M7 17 17 7M7 7h10v10"/></svg>
         </a>
 
-        <a href="https://github.com/ivamsiponnada-max/Brute-force-login-detection" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
+        <a href="https://github.com/ivamsiponnada-max/Brute-force-login-detection" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
           <div>
             <p class="font-semibold text-sm text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400">Brute-Force Login Detector</p>
             <p class="text-xs text-slate-500 dark:text-slate-500 mt-1">Windows Event ID 4625 sliding-window detection</p>
@@ -526,7 +537,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 shrink-0 text-slate-400 group-hover:text-teal-500"><path d="M7 17 17 7M7 7h10v10"/></svg>
         </a>
 
-        <a href="https://github.com/ivamsiponnada-max/Password-checker" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
+        <a href="https://github.com/ivamsiponnada-max/Password-checker" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
           <div>
             <p class="font-semibold text-sm text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400">Password Strength Checker</p>
             <p class="text-xs text-slate-500 dark:text-slate-500 mt-1">Regex + breach-list aware scoring CLI</p>
@@ -534,7 +545,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 shrink-0 text-slate-400 group-hover:text-teal-500"><path d="M7 17 17 7M7 7h10v10"/></svg>
         </a>
 
-        <a href="https://github.com/ivamsiponnada-max/Home-security" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
+        <a href="https://github.com/ivamsiponnada-max/Home-security" target="_blank" rel="noopener noreferrer" class="group p-4 rounded-xl border border-white/60 dark:border-white/10 bg-white/55 dark:bg-slate-900/40 backdrop-blur-xl hover:border-teal-500/50 transition-colors flex items-center justify-between gap-3">
           <div>
             <p class="font-semibold text-sm text-slate-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400">Home Cybersecurity Lab</p>
             <p class="text-xs text-slate-500 dark:text-slate-500 mt-1">3-VM VirtualBox lab: networking, firewalls, attacks</p>
@@ -547,8 +558,9 @@
 </section>
 
 <!-- ================= CONTACT / FOOTER ================= -->
-<footer id="contact" class="py-20 border-t border-slate-200 dark:border-slate-800">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8">
+<footer id="contact" class="relative overflow-hidden py-20 border-t border-slate-200 dark:border-slate-800">
+  <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=60" alt="" aria-hidden="true" loading="lazy" class="absolute -bottom-40 -left-40 w-[38rem] h-[38rem] max-w-none object-cover rounded-full blur-3xl opacity-20 dark:opacity-30 -z-10 pointer-events-none select-none" />
+  <div class="max-w-6xl mx-auto px-5 sm:px-8 relative z-10">
     <div class="reveal text-center max-w-xl mx-auto">
       <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">Let's build something secure.</h2>
       <p class="mt-4 text-slate-600 dark:text-slate-400">Open to detection engineering, SOC, and cybersecurity engineering roles — reach out any time.</p>
